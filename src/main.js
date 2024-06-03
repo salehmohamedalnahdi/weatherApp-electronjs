@@ -5,7 +5,7 @@ const url=require("url")
 
 let win
 const createWindow = () => {
-  //Menu.setApplicationMenu(null);
+  Menu.setApplicationMenu(null);
      win = new BrowserWindow({
       width: 800,
       height: 600,
