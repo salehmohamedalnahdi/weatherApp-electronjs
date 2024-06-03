@@ -1,0 +1,30 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* header & footer */
+body{@apply  bg-[url('../../static/sky3.jpg')] bg-cover}
+body nav{@apply flex md:justify-between  bg-blue-400 h-10 uppercase md:px-4 shadow-md}
+.title-signup{@apply flex md:items-center}
+body nav h1{@apply font-bold md:text-xl text-white}
+h2{@apply font-bold text-sm text-white md:pl-2}
+.pages{@apply flex md:items-center md:px-10 }
+body nav h2{@apply mx-4 hover:scale-125 transition ease-out duration-500}
+
+.containers{@apply flex justify-center }
+.main{@apply mt-4 text-2xl flex flex-col font-semibold} 
+/* .div-title{@apply justify-center } */
+.content{@apply  flex flex-col  items-center}
+.title{@apply  pb-1 text-white text-3xl}
+.img,
+.wind{@apply flex justify-between space-x-4 }
+.temp{@apply flex flex-col  justify-between py-3}
+p{@apply pt-2}
+.forcasts{@apply mt-1 p-2 text-xl border border-t-black flex justify-between items-center space-x-4 }
+span{@apply text-white}
+
+/*form.js*/
+form{@apply flex justify-center my-2}
+.searchInput{@apply px-1 mr-1 border-2 rounded-xl border-blue-500 text-lg}
+.submit{@apply bg-red-500 text-white text-sm rounded-full px-2 py-1 hover:bg-gray-500}
